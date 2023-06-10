@@ -1,0 +1,9 @@
+# Gidiş Yönüne Için <Nereden> Şehir veya Havalimanı Seçilir
+* "neredenPlaceholder" elementine tıklanır
+* "neredenPlaceholder" elementine <Nereden> texti yazılır
+* "gidisSecim" elementine tıklanır
+
+# Varış Noktası Için <Nereye> Şehir veya Havalimanı Seçilir
+* "nereyePlaceholder" elementine tıklanır
+* "nereyePlaceholder" elementine <Nereye> texti yazılır
+* "donusSecim" elementine tıklanır

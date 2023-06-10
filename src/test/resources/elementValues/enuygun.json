@@ -1,0 +1,157 @@
+[
+  {
+    "key": "ucakBiletiTab",
+    "value": "li[class='nav-item']>a#flightTab",
+    "type": "css"
+  },
+  {
+    "key": "neredenPlaceholder",
+    "value": "OriginInput",
+    "type": "id"
+  },
+  {
+    "key": "nereyePlaceholder",
+    "value": "DestinationInput",
+    "type": "id"
+  },
+  {
+    "key": "gidisSecim",
+    "value": "react-autowhatever-OriginInput-section-0-item-0",
+    "type": "id"
+  },
+  {
+    "key": "donusSecim",
+    "value": "react-autowhatever-DestinationInput-section-0-item-0",
+    "type": "id"
+  },
+  {
+    "key": "gidisTarihiPlaceholder",
+    "value": "DepartureDate",
+    "type": "id"
+  },
+  {
+    "key": "donusTarihiPlaceholder",
+    "value": "ReturnDate",
+    "type": "id"
+  },
+  {
+    "key": "ayYilBasligi",
+    "value": "div[class='CalendarMonthGrid_month__horizontal CalendarMonthGrid_month__horizontal_1']:nth-child(2)>div[class='CalendarMonth CalendarMonth_1']>div>strong",
+    "type": "css"
+  },
+  {
+    "key": "gelecekAyButonu",
+    "value": "//div[@role='button' and @aria-label='Move forward to switch to the next month.']",
+    "type": "xpath"
+  },
+  {
+    "key": "tekYonCheckbox",
+    "value": "oneWayCheckbox",
+    "type": "id"
+  },
+  {
+    "key": "aktarmasizCheckbox",
+    "value": "transitFilter",
+    "type": "id"
+  },
+  {
+    "key": "yolcuSecimPlaceholder",
+    "value": "//button[@class='default-btn block passenger-select-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "yetiskinYolcuSayisiArttirmaButonu",
+    "value": "//button[@data-testid='passengerCountIncrease-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "yetiskinYolcuSayisiAzaltmaButonu",
+    "value": "//button[@data-testid='passengerCountDecrease-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "cocukYolcuSayisiArttirmaButonu",
+    "value": "//button[@data-testid='passengerCountIncrease-1']",
+    "type": "xpath"
+  },
+  {
+    "key": "bebekYolcuSayisiArttirmaButonu",
+    "value": "//button[@data-testid='passengerCountIncrease-2']",
+    "type": "xpath"
+  },
+  {
+    "key": "65YasYolcuSayisiArttirmaButonu",
+    "value": "//button[@data-testid='passengerCountIncrease-3']",
+    "type": "xpath"
+  },
+  {
+    "key": "ogrenciYolcuSayisiArttirmaButonu",
+    "value": "//button[@data-testid='passengerCountIncrease-4']",
+    "type": "xpath"
+  },
+  {
+    "key": "yetiskinYolcuSayisi",
+    "value": "//div[@data-testid='passengerTypeItem-0']//span[@class='PassengerBox__type__count']",
+    "type": "xpath"
+  },
+  {
+    "key": "cocukYolcuSayisi",
+    "value": "//div[@data-testid='passengerTypeItem-1']//span[@class='PassengerBox__type__count']",
+    "type": "xpath"
+  },
+  {
+    "key": "bebekYolcuSayisi",
+    "value": "//div[@data-testid='passengerTypeItem-2']//span[@class='PassengerBox__type__count']",
+    "type": "xpath"
+  },
+  {
+    "key": "yas65YolcuSayisi",
+    "value": "//div[@data-testid='passengerTypeItem-3']//span[@class='PassengerBox__type__count']",
+    "type": "xpath"
+  },
+  {
+    "key": "ogrenciYolcuSayisi",
+    "value": "//div[@data-testid='passengerTypeItem-4']//span[@class='PassengerBox__type__count']",
+    "type": "xpath"
+  },
+  {
+    "key": "yolcuTamamButonu",
+    "value": "//button[@data-testid='okButtonMulti']",
+    "type": "xpath"
+  },
+  {
+    "key": "ekonomiButonu",
+    "value": "//button[@data-testid='cabinClassButton-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "businessButonu",
+    "value": "//button[@data-testid='cabinClassButton-1']",
+    "type": "xpath"
+  },
+  {
+    "key": "premiumEkonomiButonu",
+    "value": "//button[@data-testid='cabinClassButton-2']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstClassButonu",
+    "value": "//button[@data-testid='cabinClassButton-3']",
+    "type": "xpath"
+  },
+  {
+    "key": "ucuzBiletBulButonu",
+    "value": "//button[@data-testid='formSubmitButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "grupUcusTeklifiAlButonu",
+    "value": "a[class='secondary-link-btn']",
+    "type": "css"
+  },
+  {
+    "key": "aramayiFavorilereEkleButonu",
+    "value": "button[data-testid='favorite-search-add-button']",
+    "type": "css"
+  }
+]

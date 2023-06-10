@@ -1,0 +1,49 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (18) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1150milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1150"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+2023-06-10 08:02:56 INFO  Reflections:219 scan - Reflections took 3383 ms to scan 127 urls, producing 11198 keys and 62948 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.waitBySeconds' and 'org.enuygun.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye beklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.sendKeys' and 'org.enuygun.step.BaseSteps.sendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} texti yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.clickElement' and 'org.enuygun.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.checkElement' and 'org.enuygun.step.BaseSteps.checkElement'"}
+{"logLevel":"debug","message":"Found {} elementinin görünürlüğü kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.selectDate' and 'org.enuygun.step.BaseSteps.selectDate'"}
+{"logLevel":"debug","message":"Found Gün-Ay-Yıl(ddMMyy) formatında {}-{}-{} bilet tarihi girişi yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.passengerSelection' and 'org.enuygun.step.BaseSteps.passengerSelection'"}
+{"logLevel":"debug","message":"Found {} biletini {} adet {} biletini {} adet {} biletini {} adet {} biletini {} {} biletini {} adet arttır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.goToUrl' and 'org.enuygun.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine gidilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.selectionCheckbox' and 'org.enuygun.step.BaseSteps.selectionCheckbox'"}
+{"logLevel":"debug","message":"Found {} checkboxı seçili degilse seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.clickToElementWithJavaScript' and 'org.enuygun.step.BaseSteps.clickToElementWithJavaScript'"}
+{"logLevel":"debug","message":"Found {} elementine javascript ile tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.enuygun.step.BaseSteps.unselectedCheckbox' and 'org.enuygun.step.BaseSteps.unselectedCheckbox'"}
+{"logLevel":"debug","message":"Found {} checkboxı seçili ise seçim kaldırılır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} checkboxı seçili ise seçim kaldırılır : public void unselectedCheckbox(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} texti yazılır : public void sendKeys(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementinin görünürlüğü kontrol edilir : public void checkElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine javascript ile tıklanır : public void clickToElementWithJavaScript(String key)"}
+{"logLevel":"debug","message":"\t{} elementine tıklanır : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} saniye beklenir : public void waitBySeconds(ınt saniye) throws InterruptedException"}
+{"logLevel":"debug","message":"\tGün-Ay-Yıl(ddMMyy) formatında {}-{}-{} bilet tarihi girişi yapılır : public void selectDate(String day, String month, ınt year) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} adresine gidilir : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} biletini {} adet {} biletini {} adet {} biletini {} adet {} biletini {} {} biletini {} adet arttır : public void passengerSelection(String yetiskin, ınt adet1, String cocuk, ınt adet2, String bebek, ınt adet3, String yas65, ınt adet4, String ogrenci, ınt adet5)"}
+{"logLevel":"debug","message":"\t{} checkboxı seçili degilse seçilir : public void selectionCheckbox(String key)"}
+{"logLevel":"debug","message":"started gRPC server on port 62064"}
+{"logLevel":"info","message":"Listening on port:62064"}
+2023-06-10 08:02:59 INFO  Reflections:219 scan - Reflections took 957 ms to scan 127 urls, producing 11099 keys and 51964 values
+2023-06-10 08:03:01 INFO  WebDriverManager:632 resolveDriverVersion - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2023-06-10 08:03:01 INFO  WebDriverManager:689 exportDriver - Exporting webdriver.chrome.driver as /Users/testinium/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+Haz 10, 2023 8:03:01 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
